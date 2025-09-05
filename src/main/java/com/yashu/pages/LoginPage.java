@@ -10,7 +10,7 @@ public class LoginPage {
     By userId = By.id("formEmail");
     By password = By.id("formPassword");
     By loginBtn = By.className("login-button");
-    By eyeIcon = By.className("passowrd-visible"); // ✅ fixed
+    By eyeIcon = By.className("passowrd-visible"); //  fixed
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
